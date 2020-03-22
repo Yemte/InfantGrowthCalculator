@@ -8,16 +8,27 @@ Its built based on world health organization child growth per-centile standards 
 
 AG = (BW - pn)							             
 AGPW = pm-pn							              
-GPW =((AG))/AGPW     							               
- Percentw = (GPW *(((Pmth%-Pnth%))/100))+((Pnth%)/100)		    
+GPW =((AG))/AGPW   
+
+Percentw = (GPW *(((Pmth%-Pnth%))/100))+((Pnth%)/100)		 
+ 
 BW = birth weight in kilogram user input.
+
 Pn = the nearest smaller percentile world health organization standard value weight in kilogram relative to the given BW in the database.
+
 AG = the weight difference between the nearest smaller percentile world health organization standard value Pn & the birth weight BW.
+
 Pm = the nearest larger world health organization standard value weight in kilogram relative to the given BW in the database.
-AGPW == the weight difference between the nearest smaller percentile WHO standard value Pn & the nearest larger world health organization standard value Pm.
+
+AGPW == the weight difference between the nearest smaller percentile WHO standard value Pn & the nearest larger world health 
+organization standard value Pm.
+
 GPW = the ratio of AG per AGPW.
+
 Pnth% = the nearest smaller percentile of world health organization growth rate standard of a given age 
+
 Pmth% = the nearest larger percentile of world health organization growth rate standard of a given age 
+
 Percentw = the calculated weight per age percentile.
 
 
