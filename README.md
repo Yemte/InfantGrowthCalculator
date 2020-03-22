@@ -1,4 +1,4 @@
-The infant growth calculator android mobile application is my thesis project .
+The infant growth calculator android mobile application is the thesis project for completing my bachelor degree in IT.
 The application allows the user to calculate baby’s weight gain rate, height increase rate and head circumference increase rate for boys and girls from birth up to one year.
 Compares the result with world health organization (WHO) growth rate percentile standard charts. 
 Its built based on world health organization child growth per-centile standards of tables and charts for both boys and girls from birth up to 12 months. The tables were used to generate the application’s calculation formula shown below.
