@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IGCalculator</string>
+    <string-array name="age">
+        <item>select </item>
+        <item>Weeks </item>
+        <item>Months</item>
+
+    </string-array>
+
+</resources>

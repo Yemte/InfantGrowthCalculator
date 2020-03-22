@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yemte.infantgrowthcalculator.HightIncreaseActivity">
+
+
+    <TextView
+        android:id="@+id/textView_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:autoSizeTextType="uniform"
+        android:autoText="false"
+        android:gravity="center_horizontal"
+        android:keepScreenOn="true"
+        android:text="Head Circumference Increase Rate"
+        android:textAllCaps="false"
+        android:textColor="#A0522D"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/et_currentHC"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:ems="10"
+        android:hint="cm"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/textView_headtcurrent"
+        app:layout_constraintTop_toBottomOf="@+id/et_BirthHC" />
+
+    <EditText
+        android:id="@+id/et_BirthHC"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="cm"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/textView_headtbirth"
+        app:layout_constraintTop_toBottomOf="@+id/radiogroup_HCgender" />
+
+    <Button
+        android:id="@+id/button_HC_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="Calculate"
+        android:textColor="#A0522D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_headtbirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="48dp"
+        android:text="Birth Head Circum"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_HC_gender" />
+
+    <TextView
+        android:id="@+id/textView_headtcurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="36dp"
+        android:text="Current Head Circum"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_headtbirth" />
+
+    <TextView
+        android:id="@+id/textView_headage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Age"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_headtcurrent" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_HCgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_HC_gender"
+        app:layout_constraintTop_toBottomOf="@+id/textView_head">
+
+        <RadioButton
+            android:id="@+id/rb_HCmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rb_HCfemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_HC_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="48dp"
+        android:text="Gender"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_head" />
+
+    <EditText
+        android:id="@+id/et_HCage"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="week/month"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/Rg_Age_HC"
+        app:layout_constraintTop_toBottomOf="@+id/et_currentHC" />
+
+    <RadioGroup
+        android:id="@+id/Rg_Age_HC"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_headage"
+        app:layout_constraintTop_toBottomOf="@+id/textView_headtcurrent">
+
+        <RadioButton
+            android:id="@+id/RBHC_weeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="weeks" />
+
+        <RadioButton
+            android:id="@+id/RBHC_months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="months" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
