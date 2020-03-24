@@ -37,4 +37,4 @@ The calculator receives birth weight  current weight ,age in weeks/months and ge
 It receives birth height, current height,age and gender to calculate hight increase
 It receives birth head circumference, current head circumference, gender and age to calculate head circumference increase.
 calculates the percentile growth rate. 
-It displays the result in the form of text and generates a graph for world health organization standard charts with the result for comparison purpose.
+It displays the result in the form of text and generates a graph  for the result comparing it with  world health organization standard charts.
