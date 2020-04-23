@@ -3,7 +3,7 @@ The application allows the user to calculate baby’s weight gain rate, height i
 
 
 It compares the result with world health organization (WHO) growth rate percentile standard charts. 
-It's built based on world health organization child growth per-centile standards of tables and charts for both boys and girls from birth up to 12 months. The tables were used to generate the application’s calculation formula shown below.
+It's built based on world health organization child growth percentile standards of tables and charts for both boys and girls from birth up to 12 months. The tables were used to generate the application’s calculation formula shown below.
 
 
 AG = (BW - pn)							             
@@ -34,7 +34,10 @@ Percentw = the calculated weight per age percentile.
 
 
 The calculator receives birth weight  current weight ,age in weeks/months and gender to calculate weight gain .
+
 It receives birth height, current height,age and gender to calculate hight increase
+
 It receives birth head circumference, current head circumference, gender and age to calculate head circumference increase.
 calculates the percentile growth rate. 
+
 It displays the result in the form of text and generates a graph  for the result comparing it with  world health organization standard charts.
