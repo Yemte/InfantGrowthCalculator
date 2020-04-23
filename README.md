@@ -35,7 +35,7 @@ Percentw = the calculated weight per age percentile.
 
 The calculator receives birth weight  current weight ,age in weeks/months and gender to calculate weight gain .
 
-It receives birth height, current height,age and gender to calculate hight increase
+It receives birth height, current height,age and gender to calculate hight increase.
 
 It receives birth head circumference, current head circumference, gender and age to calculate head circumference increase.
 calculates the percentile growth rate. 
