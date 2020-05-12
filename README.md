@@ -3,7 +3,7 @@ The application allows the user to calculate baby’s weight gain rate, height i
 
 
 It compares the result with world health organization (WHO) growth rate percentile standard charts. 
-It's built based on world health organization child growth percentile standards of tables and charts for both boys and girls from birth up to 12 months. The tables were used to generate the application’s calculation formula shown below.
+It's built based on world health organization child growth percentile standards of tables and charts for both boys and girls from birth up to 12 months. The tables were used to generate the application’s calculation formula shown below and also to compare the calculated result.
 
 
 AG = (BW - pn)							             
